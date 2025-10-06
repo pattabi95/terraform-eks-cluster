@@ -51,9 +51,9 @@ This repository provisions an Amazon EKS (Elastic Kubernetes Service) cluster an
 ```
 .
 ├── main.tf
+├── provider.tf
 ├── variables.tf
 ├── outputs.tf
-├── terraform.tfvars
 ├── modules/
 │   ├── vpc/
 │   │   ├── main.tf
@@ -63,6 +63,11 @@ This repository provisions an Amazon EKS (Elastic Kubernetes Service) cluster an
 │       ├── main.tf
 │       ├── variables.tf
 │       └── output.tf
+├── .gitignore
+├── terraform.lock.hcl
+├── LICENSE
+└── README.md
+
 ```
 
 ## Customization
