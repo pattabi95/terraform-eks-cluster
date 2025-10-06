@@ -1,2 +1,7 @@
+# Terraform
 .terraform/
-.terraform/
+[terraform.tfstate](http://_vscodecontentref_/3)
+terraform.tfstate.*
+crash.log
+*.tfvars
+[.terraform.lock.hcl](http://_vscodecontentref_/4)
