@@ -1,7 +1,34 @@
-# Terraform
-.terraform/
-[terraform.tfstate](http://_vscodecontentref_/3)
-terraform.tfstate.*
-crash.log
+# Terraform-specific files and directories to ignore
+
+# Local Terraform directories (provider binaries, external module source code)
+**/.terraform/
+
+# Terraform state files and backups
+*.tfstate
+*.tfstate.*
+
+# Terraform variable files (potentially containing sensitive data)
 *.tfvars
-[.terraform.lock.hcl](http://_vscodecontentref_/4)
+*.tfvars.json
+
+# Terraform override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform plan files (if you save them locally)
+*.tfplan
+
+# Crash log files
+crash.log
+
+# Terraform CLI configuration files
+.terraformrc
+terraform.rc
+
+# Sensitive files that might be generated (e.g., if using external tools)
+# Add any other files containing sensitive information specific to your setup
+# For example:
+# credentials.json
+# secret_keys.txt
